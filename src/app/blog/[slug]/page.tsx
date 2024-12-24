@@ -2,7 +2,8 @@ import React from "react";
 import { getPostBySlug } from "@/sanity/sanity-utils";
 import RenderBodyContent from "@/components/Blog/RenderBodyContent";
 
-const SingleBlogPage = async ({ params }: { params: any }) => {
+const SingleBlogPage = async ({ params }: { params: { slug: string } }) => {
+  // Await params.slug if needed
   const post = await getPostBySlug(params.slug);
 
   return (
