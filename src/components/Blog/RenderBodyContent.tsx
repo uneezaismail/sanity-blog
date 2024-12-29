@@ -39,8 +39,8 @@ const components = {
 
 const RenderBodyContent = ({ post }: { post: Blog }) => {
   return (
-    <>
-      <PortableText value={post?.body as any} components={components} />
+    <>   
+     <PortableText value={post?.body as any}  components={components} />
     </>
   );
 };

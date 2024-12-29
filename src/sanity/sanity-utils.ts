@@ -37,8 +37,12 @@ export const getPosts = async () => {
     qParams: {},
     tags: ["post", "author", "category"],
   });
+  console.log("Fetched Posts from Sanity:", data);
   return data;
 };
+
+// const posts = await getPosts();
+// console.log("Fetched Posts:", posts);
 
 export const getPostBySlug = async (slug: string) => {
   const data: Blog = await sanityFetch({

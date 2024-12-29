@@ -3,9 +3,9 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="flex justify-between px-10 py-5 md:px-24 max-w-[1000px] mx-auto">
-      <Link href={"/"} className="text-2xl font-bold underline">
-        Sanity Blog
+    <header className="flex justify-between px-4 py-5 md:px-24 max-w-[1000px] mx-auto">
+      <Link href={"/"} className="text-2xl font-bold">
+      The Blog Diary
       </Link>
 
       <nav>
