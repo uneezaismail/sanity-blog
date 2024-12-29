@@ -14,7 +14,7 @@ const SingleBlogPage = async ({ params }: { params: Promise<Params> }) => {
     return (
       <div className="py-10 text-center">
         <h1 className="text-3xl font-bold">Post Not Found</h1>
-        <p>We couldn't find the post you're looking for. It might have been deleted or moved.</p>
+        <p>We couldn&apos;t find the post you&apos;re looking for. It might have been deleted or moved.</p>
       </div>
     );
   }
